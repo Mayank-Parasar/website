@@ -1,0 +1,6 @@
+site_name: Mayank Parasar
+nav:
+  - Home: index.md
+  - About: about.md
+
+theme: readthedocs
