@@ -1,6 +1,16 @@
 site_name: Mayank Parasar
+site_author: Mayank Parasar
+
+
+# Repository
+repo_name: Mayank-Parasar/website
+repo_url: https://github.com/Mayank-Parasar/website.git
+edit_uri: ""
+
 nav:
   - Home: index.md
-  - About: about.md
+  - Biography: bio.md
+  - Education: education.md
 
-theme: readthedocs
+theme:
+  name: material
