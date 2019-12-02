@@ -12,6 +12,7 @@ nav:
   # - Biography: bio.md
   - Education: education.md
   - Research: research.md
+  - Publications: publication.md
 
 theme:
   name: material
