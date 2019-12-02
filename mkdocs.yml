@@ -9,8 +9,9 @@ edit_uri: ""
 
 nav:
   - Home: index.md
-  - Biography: bio.md
+  # - Biography: bio.md
   - Education: education.md
+  - Research: research.md
 
 theme:
   name: material

@@ -1,4 +1,4 @@
-# Mayank [Parasar](profile2.jpg)
+# Mayank <span style="color:blue">Parasar</span>
 
 [//]: # "(![Drag Racing](profile2.jpg)"
 
@@ -17,18 +17,3 @@ He held the position of <u>AMD Student Ambassador at Georgia Tech</u> in the yea
 Contact Address
 -------
 3305 KLAUS ADVANCED COMPUTING BUILDING (KACB) · 266 FERST DR NW, ATLANTA, GA 30332 · (470) 985-3155 · [EMAIL](mailto:mparasar3@gatech.edu)
-
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
