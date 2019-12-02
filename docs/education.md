@@ -1,4 +1,4 @@
-#### DOCTORATE OF PHILOSOPHY (PH.D.)
+#### DOCTORATE OF PHILOSOPHY (Ph.D.)
 <a href="https://en.wikipedia.org/wiki/Georgia_Institute_of_Technology">GEORGIA INSTITUTE OF TECHNOLOGY</a>, Atlanta, Georgia, USA<br>
 _August 2015 - Present_
 
