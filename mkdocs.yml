@@ -13,6 +13,12 @@ nav:
   - Education: education.md
   - Research: research.md
   - Publications: publication.md
+  - Experience: experience.md
+  - Skills: skill.md
+  - Project Code Hosting: codes.md
+  - Extracurricular: extracurricular.md
+  - Curriculum Vitae: cv.md
+  # - Gallery: gallery.md
 
 theme:
   name: material
