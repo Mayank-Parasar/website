@@ -1,6 +1,6 @@
 ## Deadlock Freedom
 -------
-* **Mayank Parasar**, H. Farrokhbakht, N. Enright Jerger, P. Gratz, T. Krishna, and J. San Miguel, “DRAIN: Deadlock Removal for Arbitrary Irregular Networks,” in The 26th IEEE International Symposium on High-Performance Computer Architecture,  <u>*MICRO-26, 2020*</u>
+* **Mayank Parasar**, H. Farrokhbakht, N. Enright Jerger, P. Gratz, T. Krishna, and J. San Miguel, “DRAIN: Deadlock Removal for Arbitrary Irregular Networks,” in The 26th IEEE International Symposium on High-Performance Computer Architecture,  <u>*HPCA-26, 2020*</u>
 	* <div>[paper] · [slides] · [youtube-link] · [bibtex]</div>
 * **Mayank Parasar**, N. Enright Jerger, P. Gratz, J. San Miguel, and T. Krishna, “SWAP: Synchronized Weaving of Adjacent Packets for Network Deadlock Prevention,” In Proc of 52nd Annual IEEE/ACM International Symposium on Microarchitecture, <u>*MICRO-52, 2019*</u>
 	* <div>[[paper](papers/swap_micro2019.pdf)] · [slides] · [<a href="https://www.youtube.com/watch?v=HUmRfd2BDRA&amp=&feature=youtu.be">youtube-link</a>] · [bibtex]</div>
@@ -8,7 +8,7 @@
 	* <div>[[paper](papers/bindu_nocs2019.pdf)] · [slides] · [youtube-link] · [bibtex]</div>
 * **Mayank Parasar**, and T. Krishna, “Guaranteeing Deadlock Freedom in Arbitrary Network Topologies using Packet Swaps,” Student Research Competition, 51st Annual IEEE/ACM International Symposium on Microarchitecture, <u>*MICRO-SRC-51, 2018*</u>
 	* <div>[[paper](papers/micro_src.pdf)] · [slides] · [<a href="https://www.youtube.com/watch?v=HUmRfd2BDRA&amp=&feature=youtu.be">youtube-link</a>] · [bibtex]</div>
-* **Mayank Parasar**, A. Sinha, and T. Krishna, “Brownian Bubble Router: Enabling deadlock freedom via guaranteed forward progress,” in Proceedings of the Twelfth IEEE/ACM International Symposium on Networks-on-Chip, <u>*NOCS, 2018*</u> 
+* **Mayank Parasar**, A. Sinha, and T. Krishna, “Brownian Bubble Router: Enabling deadlock freedom via guaranteed forward progress,” in Proceedings of the Twelfth IEEE/ACM International Symposium on Networks-on-Chip, <u>*NOCS, 2018*</u>
 	* <div>[[paper](papers/brownianbubble_nocs2018.pdf)] · [slides] · [youtube-link] · [bibtex]</div>
 
 ## Network Throughput Enhacement
