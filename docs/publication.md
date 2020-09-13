@@ -1,3 +1,10 @@
+## Ph.D. Thesis and Ph.D. Defense Slide
+-------
+* Ph.D. Thesis
+	* <div> [[Thesis](papers/PARASAR-DISSERTATION-2020.pdf)] </div>
+* Ph.D. Defense slide
+	* <div> [[slide](slides/Defense.pptx)] </div>
+
 ## Deadlock Freedom
 -------
 * **Mayank Parasar**, H. Farrokhbakht, N. Enright Jerger, P. Gratz, T. Krishna, and J. San Miguel, “DRAIN: Deadlock Removal for Arbitrary Irregular Networks,” in The 26th IEEE International Symposium on High-Performance Computer Architecture,  <u>*HPCA-26, 2020*</u>
