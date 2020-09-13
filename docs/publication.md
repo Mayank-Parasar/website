@@ -1,7 +1,7 @@
 ## Ph.D. Thesis and Ph.D. Defense Slide
 -------
 * Ph.D. Thesis
-	* <div> [[Thesis](papers/PARASAR-DISSERTATION-2020.pdf)] </div>
+	* <div> [[Thesis](papers/PARASAR-DISSERTATION-2020.pdf)] · [<a href="https://smartech.gatech.edu/handle/1853/63654">Thesis-URL</a>]  </div>
 * Ph.D. Defense slide
 	* <div> [[slide](slides/Defense.pptx)] </div>
 
