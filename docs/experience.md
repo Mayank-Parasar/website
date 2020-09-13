@@ -1,3 +1,11 @@
+### SENIOR ENGINEER, SAMSUNG AUSTIN RESEARCH CENTER (SARC)
+SAMSUNG<br>
+Aug 2020 – Present <br>
+Austin, Texas Area, USA<br>
+
+Working in SoC System IP modeling team
+
+--------
 ### CO-OP ENGINEER, AMD RESEARCH
 AMD<br>
 Aug 2017 – Dec 2017 · 4 months <br>

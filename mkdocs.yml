@@ -15,11 +15,21 @@ nav:
   - Publications: publication.md
   - Experience: experience.md
   - Skills: skill.md
-  - Project Code Hosting: codes.md
-  - Extracurricular: extracurricular.md
+  # - Project Code Hosting: codes.md
+  - Social: extracurricular.md
+  - GitHub Projects: github.md
   - Curriculum Vitae: cv.md
   - Blog: blog.md
   # - Gallery: gallery.md
 
 theme:
   name: material
+
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/Mayank-Parasar/leetcode
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/mayankparasar/
