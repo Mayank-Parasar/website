@@ -15,9 +15,10 @@ Example code:<br>
 <a href="https://github.com/Mayank-Parasar/gem5-network-topologies/blob/master/FlattenedButterfly.py">FlattenedButterfly</a> <br>
 <a href="https://github.com/Mayank-Parasar/gem5-network-topologies/blob/master/irregularMesh.py">IrregualarMesh</a> <br>
 
+#### Verilog projects: [https://github.com/Mayank-Parasar/verilog_code](https://github.com/Mayank-Parasar/verilog_code)
+<a href="https://github.com/Mayank-Parasar/verilog_code/blob/master/fileIO.v">FileIO_verilog</a> <br>
 #### CUDA C projects: <br>
 #### C++ projects: <br>
-#### Verilog projects: <br>
 #### Python projects: <br>
 #### R and matlab code:	<br>
 
