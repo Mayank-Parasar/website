@@ -14,7 +14,11 @@
 
 News
 -------
-Hi! I have graduated from Georgia Tech with Ph.D. in July 2020 and have joined Samsung Austin Research and Development Center (SARC) in Austin as Senior Engineer.
+Hi! 
+
+* I have graduated from Georgia Tech with Ph.D. in July 2020 and have joined Samsung Austin Research and Development Center (SARC) in Austin as Senior Engineer.
+* _Docker Images_ are now available for each of the gem5 repository under section: [publication](publication.md)
+
 
 About
 -------
