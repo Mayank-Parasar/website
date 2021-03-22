@@ -13,3 +13,6 @@ I believe in a healthy lifestyle and enjoy outdoor activities such as jogging an
 | March, 2019 |              Publix Half Marathon             |   1 hour 54 minutes   |
 | July, 2019  |       50th AJC Peachtree Road Race (10k)      | 51 minutes 12 seconds |
 | April-2019  | Georgia Tech 47th Annual Pi Mile 5k Road Race | 24 minutes 55 seconds |
+
+My recent running activities are logged here at my strava-profile:
+<a href="https://www.strava.com/athletes/78542138">https://www.strava.com/athletes/78542138</a>

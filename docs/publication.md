@@ -1,10 +1,3 @@
-## Ph.D. Thesis and Ph.D. Defense Slide
--------
-* Ph.D. Thesis
-	* <div> [[Thesis](papers/PARASAR-DISSERTATION-2020.pdf)] · [<a href="https://smartech.gatech.edu/handle/1853/63654">Thesis-URL</a>]  </div>
-* Ph.D. Defense slide
-	* <div> [[slide](slides/Defense.pptx)] </div>
-
 ## Deadlock Freedom
 -------
 * **Mayank Parasar**, H. Farrokhbakht, N. Enright Jerger, P. Gratz, T. Krishna, and J. San Miguel, “DRAIN: Deadlock Removal for Arbitrary Irregular Networks,” in The 26th IEEE International Symposium on High-Performance Computer Architecture,  <u>*HPCA-26, 2020*</u>
@@ -30,3 +23,10 @@
     * <div>[[paper](papers/seesaw_isca2018.pdf)] · [[slides](slides/seesaw_mainTalk.pptx)] · [<a href="https://www.youtube.com/watch?v=We_SBIk9Qog">youtube-link</a>] · [[bibtex](papers/seesaw.bib)]</div>
 * **Mayank Parasar**, A. Bhattacharjee, and T. Krishna, “VESPA: VIPT Enhancements for Superpage Accesses,” arXiv preprint arXiv:1701.03499 (2017).
     * <div>[[paper](papers/vespa_arxiv2017.pdf)] · [slides] · [youtube-link] · [[bibtex](papers/vespa.bib)]</div>
+
+## Ph.D. Thesis and Ph.D. Defense Slide
+-------
+* Ph.D. Thesis
+	* <div> [[Thesis](papers/PARASAR-DISSERTATION-2020.pdf)] · [<a href="https://smartech.gatech.edu/handle/1853/63654">Thesis-URL</a>]  </div>
+* Ph.D. Defense slide
+	* <div> [[slide](slides/Defense.pptx)] </div>
