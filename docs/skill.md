@@ -1,4 +1,5 @@
 ##COMPUTER ARCHITECTURE SIMULATORS
+* <a href="https://www.veripool.org/wiki/verilator">Verilator</a>
 * <a href="http://www.gem5.org">gem5</a>
 * <a href="http://www.gem5.org/Garnet2.0">Garnet2.0</a>
 * <a href="http://www.utaharch.blogspot.com/2012/02/usimm.html">USIMM</a>
