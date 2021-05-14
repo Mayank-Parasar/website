@@ -10,5 +10,5 @@
 
 ### Conference committee member
 * <a href="https://nocs2021.github.io/committee.html">NOCS 2021</a>
-* <a href="https://coinsconf.com/conference-committee-2021/">IEEE COINS 2021</a>
+* <a href="https://coinsconf.com/wp-content/uploads/2021/05/CFP-CAS-2021-May2021.pdf">IEEE COINS 2021</a>
 * <a href="https://ctuning.org/ae/asplos2021.html">Artifact Evaluation for ASPLOS 2021</a>
