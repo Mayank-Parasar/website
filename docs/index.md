@@ -18,6 +18,8 @@ Hi!
 
 * I have graduated from Georgia Tech with Ph.D. in July 2020 and have joined Samsung Austin Research and Development Center (SARC) in Austin as Senior Engineer.
 * _Docker Images_ are now available for each of the gem5 repository under section: [publication](publication.md)
+* <em>Our paper <b>SEEC: Stochastic Escape Express Channel</b> has been accepted in <a href="https://sc21.supercomputing.org/">Super Computing Conference 2021 (SC21)</a></em>
+* <em>SEEC: Stochastic Escape Express Channel</em> has been nominated for best paper
 
 
 About
