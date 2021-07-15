@@ -1,0 +1,857 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% -*- coding: UTF-8; -*-
+% vim: set fenc=utf-8
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% CV.tex
+%% <https://github.com/zachscrivena/simple-resume-cv>
+%% This is free and unencumbered software released into the
+%% public domain; see <http://unlicense.org> for details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% See "README.md" for instructions on compiling this document.
+
+\documentclass[letterpaper,MMMyyyy,nonstopmode]{simpleresumecv}
+% Class options:
+% a4paper, letterpaper, nonstopmode, draftmode
+% MMMyyyy, ddMMMyyyy, MMMMyyyy, ddMMMMyyyy, yyyyMMdd, yyyyMM, yyyy
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{xcolor}
+% CV Info (to be customized).
+\newcommand{\CVAuthor}{Mayank Parasar}
+\newcommand{\CVTitle}{Mayank Parasar's Resumè}
+\newcommand{\CVNote}{CV compiled on {\today}}
+\newcommand{\CVWebpage}{http://www.linkedin.com/in/mayankparasar/}
+% Always include hyperref last
+\usepackage[bookmarks=true,breaklinks=true,letterpaper=true,colorlinks,linkcolor=gray,citecolor=gray,urlcolor=gray]{hyperref}
+% PDF settings and properties.
+%\hypersetup{
+%pdftitle={\CVTitle},
+%pdfauthor={\CVAuthor},
+%pdfsubject={\CVWebpage},
+%pdfcreator={XeLaTeX},
+%pdfproducer={},
+%pdfkeywords={},
+%unicode=true,
+%bookmarks=true,
+%bookmarksopen=true,
+%pdfstartview=FitH,
+%pdfpagelayout=OneColumn,
+%pdfpagemode=UseOutlines,
+%hidelinks,
+%breaklinks}
+
+% Shorthand.
+\newcommand{\Code}[1]{\mbox{\textbf{#1}}}
+\newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%
+% TITLE BLOCK %
+%%%%%%%%%%%%%%%
+
+\Title{\CVAuthor}
+
+\begin{SubTitle}
+\href{https://www.google.com/maps/place/494+Lynch+Ave,+Atlanta,+Georgia+30318,+USA}
+{494 Lynch Ave NW, Atlanta, Georgia 30318, USA}
+\par
+\href{mailto:mparasar3@gatech.edu}
+{mparasar3@gatech.edu}
+\,\SubBulletSymbol\,
++1\,(470)\,985-3155
+\,\SubBulletSymbol\,
+\href{\CVWebpage}
+{\url{\CVWebpage}}
+\par
+personal website:
+\href{http://www.mayankparasar.com}{\url{http://www.mayankparasar.com}}
+\,\SubBulletSymbol\,
+github:
+\href{https://github.com/Mayank-Parasar}{\url{https://github.com/Mayank-Parasar}}
+\end{SubTitle}
+
+\begin{Body}
+
+%%%%%%%%%%%%%%%
+%% Carrier Objective %%
+%%%%%%%%%%%%%%%
+\Section
+{Career Objective}
+{Career Objective}
+{PDF:career objective}
+I work in the field of \textbf{Computer Architecture} and my research focus is to come-up with breakthrough solutions in the field of \textbf{Interconnection Networks}, \textbf{Memory System} and system software/application layer co-design. I like coding, my favorite language is C++ (then python). I have worked on open source simulators like \href{http://www.gem5.org}{{gem5}}. I am passionate about designing cycle-accurate system simulators. I am looking for full time opportunities starting in summer.
+\vspace{-2mm}
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
+\Section
+{Education}
+{Education}
+{PDF:Education}
+
+\Entry
+\href{https://www.gatech.edu/}
+{\textbf{Georgia Institute of Technology}},
+Atlanta, Georgia, USA
+
+\Gap
+\BulletItem
+Ph.D. in
+\href{https://www.ece.gatech.edu/}
+{Electrical and Computer Engineering}
+\hfill
+\DatestampYMD{2015}{08}{15} --
+%\DatestampYMD{2014}{07}{15}
+\textit{Present}
+%\begin{Detail}
+\SubBulletItem
+Thesis:
+%\href{http://www.example.com/my-phd-thesis}
+{Subactive Techniques for Guaranteeing Routing and Protocol Deadlock Freedom in Interconnection Networks}
+\SubBulletItem
+Adviser:
+Prof.~Tushar~Krishna
+\SubBulletItem
+Focus:
+Interconnection Networks, On-Chip Network, Performance, Deadlock, Cache Coherence, Memory System.
+\SubBulletItem
+Cumulative GPA: 4.0/4.0
+%\end{Detail}
+
+\Gap
+\BulletItem
+Minor in Computer Science
+\hfill
+\DatestampYMD{2016}{08}{15} --
+\DatestampYMD{2017}{05}{15}
+\SubBulletItem
+Cumulative GPA: 4.0/4.0
+
+\Gap
+\BulletItem
+M.S. in
+\href{https://www.ece.gatech.edu/}
+{Electrical and Computer Engineering}
+\hfill
+\DatestampYMD{2015}{05}{15} --
+\DatestampYMD{2017}{08}{15}
+%\begin{Detail}
+\SubBulletItem
+Cumulative GPA: 4.0/ 4.0
+%\end{Detail}
+
+\BigGap
+\Entry
+\href{http://www.iitkgp.ac.in/}
+{\textbf{Indian Institute of Technology, Kharagpur (IIT Kharagpur)}},
+Kharagpur, West Bengal, India
+
+\Gap
+\BulletItem
+B.Tech(Hons.) in
+\href{http://www.ee.iitkgp.ac.in/}
+{Electrical Engineering Department}
+\hfill
+\DatestampYMD{2009}{08}{15} --
+\DatestampYMD{2013}{05}{15}
+\begin{Detail}
+\SubBulletItem
+Cumulative GPA: 8.41 / 10
+\end{Detail}
+\vspace{-2mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% RESEARCH EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\Section
+%{Research Experience}
+%{Research Experience}
+%{PDF:ResearchExperience}
+%
+%\Entry
+%\href{http://www.example.com/my-institute}
+%{\textbf{Institute for Advanced Research}},
+%Science College
+%
+%\Gap
+%\BulletItem
+%Undergraduate Research Student, Science Department
+%\hfill
+%\DatestampYMD{2004}{05}{15} --
+%\DatestampYMD{2005}{05}{15}
+%\begin{Detail}
+%\SubBulletItem
+%Project:
+%Investigations on the Use of Lasers to Measure Climate Change
+%\SubBulletItem
+%Supervisors:
+%Prof.~Jane~Citizen and
+%Dr~Ann~Yone
+%\SubBulletItem
+%Focus:
+%Climate change, lasers, statistical analysis, data analytics.
+%\end{Detail}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% WORK EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Work Experience}
+{Work Experience}
+{PDF:WorkExperience}
+
+\Entry
+%\href{http://www.example.com/my-club}
+{\textbf{Graduate Research Assistant}},
+Synergy Lab, Georgia Institute of Technology, Atlanta, GA, USA.
+\Gap
+\hfill
+\DatestampYMD{2016}{05}{15} --
+\textit{Present}
+%\begin{Detail}
+\SubBulletItem
+Formulating meaningful research optimizations both at micro-architectural level as well as at system software level.
+%\end{Detail}
+\Gap
+\Entry
+%\href{http://www.example.com/my-club}
+{\textbf{Co-Op Engineer at AMD Research}},
+Advanced Micro Devices, Inc. (“AMD”), Austin, TX, USA.
+\Gap
+\hfill
+\DatestampYMD{2017}{08}{15} --
+\DatestampYMD{2017}{12}{15}
+%\begin{Detail}
+\SubBulletItem
+Worked on optimizing micro-architectural support for virtual address translation in heterogeneous system architecture involving accelerators. Work involved adding support in gem5 simulator.
+%\end{Detail}
+\Gap
+\Entry
+%\href{http://www.example.com/my-club}
+{\textbf{Graduate Teaching Assistant}},
+Georgia Institute of Technology, Atlanta, GA, USA.
+\Gap
+\hfill
+\DatestampYMD{2015}{08}{15} --
+\DatestampYMD{2016}{05}{15}
+%\begin{Detail}
+\SubBulletItem
+Teaching assistant in course ECE-3056: Architecture, Concurrency, and Energy in Computation under late professor Sudhakar Yalamanchili.
+\SubBulletItem
+Designed and implementing programming assignment for the students
+\SubBulletItem
+Provided student assistance during office hours
+%\end{Detail}
+\Gap
+\Entry
+%\href{http://www.example.com/my-club}
+{\textbf{CPU Validation Engineer}},
+NVIDIA Corporation, Bangalore, India.
+%\Gap
+\hfill
+\DatestampYMD{2013}{07}{15} --
+\DatestampYMD{2015}{06}{15}
+%\begin{Detail}
+\SubBulletItem
+Involved in Implementing big.LITTLE architecture functionality in simulator for ARM Cortex-A53 and
+ARM Cortex-A57 processors
+\SubBulletItem
+Implemented ARMv8.1 extensions, including 16 bit ASID and VMID size along with new instructions
+for atomically accessing memory, in architectural simulator
+\vspace{-2mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Skills %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Skills}
+{Skills}
+{PDF:Skills}
+
+\Entry
+%\href{http://www.example.com/my-company}
+{\textbf{Computer Architecture Simulators}}
+\Gap
+\BulletItem
+gem5, Garnet2.0, USIMM, Cacti
+
+\Entry
+%\href{http://www.example.com/my-company}
+{\textbf{Programming Languages}}
+\Gap
+\BulletItem
+C, C++, R, Python, Bash, tcsh, Matlab/Octave, Verilog, HTML
+
+%\SubSection
+%{Journals}
+%{Journals}
+%{PDF:Journals}
+%
+%% Declare a new group to limit the scope of \MaxNumberedItem to this subsection.
+%\begingroup
+%\renewcommand{\MaxNumberedItem}{[88]}
+%
+%\BigGap
+%\NumberedItem{[10]}
+%\href{http://www.example.com/my-paper-doi-5}
+%{\underline{J.~Doe}, J.~Citizen, and A.~Yone,
+%``On lasers and climate change,''
+%\textit{Journal of Science},
+%vol.~89,
+%no.~2,
+%pp.~4123--4133,
+%\DatestampYM{2008}{02}.}
+%
+%\Gap
+%\NumberedItem{[1]}
+%\href{http://www.example.com/my-paper-doi-4}
+%{\underline{J.~Doe} and J.~Citizen,
+%``Measuring the extent of climate change,''
+%\textit{Global Scientific Journal},
+%vol.~12,
+%no.~4,
+%pp.~330--352,
+%\DatestampYM{2006}{12}.}
+%
+%\endgroup
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PROJECTS %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Projects}
+{Projects}
+{PDF:Projects}
+
+\Entry
+%\href{http://www.example.com/my-society}
+{\textbf{Convolutional neural network for number recognition (CUDA C)}},
+\newline
+Georgia Institute of Technology
+\hfill
+\DatestampYMD{2018}{02}{15} --
+\DatestampYMD{2018}{04}{15}
+\BulletItem
+Implemented the computation graph of a convolutional neural network to perform image recognition on a gray-scale image.
+\BulletItem
+Optimized kernel execution times using shared memory, constant memory and memory coalescing for NVIDIA GPUs.
+
+% Manual page break.
+%\newpage
+
+\BigGap
+\Entry
+%\href{http://www.example.com/my-society}
+{\textbf{Implemented distributed server [Client:Store:Vendor] using gRPC framework}},
+\newline
+Advanced Operating System, Georgia Institute of Technology
+\hfill
+\DatestampYMD{2016}{10}{15} --
+\DatestampYMD{2016}{11}{15}
+\BulletItem
+Implemented Client:Store:Vendor communication, with specifications provided in proto file using gRPC.
+\BulletItem
+Implemented Master for managing mapper and reducer threads. Implemented `Mapper’ and `Reducer’
+
+\BigGap
+\Entry
+%\href{http://www.example.com/my-society}
+{\textbf{Devised C++ kernel to analyze underlying memory system}},
+\newline
+{\textbf{High performance cache replacement policies: RRIP, DRRIP, SHiP and EAF}}
+\newline
+{\textbf{DRAM Page closure policies and Memory Scheduling policies}}
+\newline
+Advanced Memory System, Georgia Institute of Technology
+\hfill
+\DatestampYMD{2016}{01}{15} --
+\DatestampYMD{2016}{03}{15}
+\BulletItem
+Used infrastructure from Cache Replacement championship-ISCA2010.
+\BulletItem
+USIMM is used for implementing DRAM Page Closure: Open-Page, Close-Page, Open-Page-for-Read-Close-Page-for-Write; Memory Scheduling Polices(MCP): FCFS, FR-FCFS-CapN, Fair Scheduling Policy
+
+\BigGap
+\Entry
+%\href{http://www.example.com/my-society}
+{\textbf{The Distributed Two-Dimensional Discrete Fourier Transform}},
+\newline
+{\textbf{The Multi-Threaded Two-Dimensional Discrete Fourier Transform}},
+\newline
+Advanced Programming Techniques, Georgia Institute of Technology
+\hfill
+\DatestampYMD{2015}{08}{15} --
+\DatestampYMD{2015}{10}{15}
+\BulletItem
+Used MPI (Message Passing Interface) to implement 2-D DFT in C++.
+\BulletItem
+Used pthreads to implemented Danielson-Lanczos Algorithm (aka Cooley-Tukey FFT Algorithm) to
+compute 2-D DFT
+
+\BigGap
+\Entry
+%\href{http://www.example.com/my-society}
+{\textbf{Dependency Tracking and Forwarding for 5-stage Superscalar Pipeline with Branch Prediction}},
+\newline
+{\textbf{Out of Order Pipeline with In-Order Commit}},
+\newline
+{\textbf{Chip Multiprocessor (CMP) Memory System Design}},
+\newline
+Advanced Computer Architecture, Georgia Institute of Technology
+\hfill
+\DatestampYMD{2015}{08}{15} --
+\DatestampYMD{2015}{11}{15}
+\BulletItem
+Implemented G-Share Branch predictor
+\BulletItem
+Implemented Tomasulo's algorithm to implement Out of Order Execution, using Reorder Buffer (ROB) and Register Alias Table (RAT) in Super Scalar machine
+\BulletItem
+Implemented Static Way Partitioning and Utility based Cache Partitioning for shared L2 Cache
+
+
+%%%%%%%%%%%%%%%%%%
+%% PUBLICATIONS %%
+%%%%%%%%%%%%%%%%%%
+
+\Section
+{Publications}
+{Publications}
+{PDF:Publications}
+\BigGap
+\SubSection
+{Conferences}
+{Conferences}
+{PDF:Conferences}
+
+% Declare a new group to limit the scope of \MaxNumberedItem to this subsection.
+\begingroup
+\renewcommand{\MaxNumberedItem}{[8888]}
+
+\BigGap
+\NumberedItem{[1]}
+%\href{http://www.example.com/my-paper-doi-3}
+{\underline{M.~Parasar}, H. Farrokhbakht, N. Enright Jerger, P. Gratz, T. Krishna, and J. San Miguel, 
+``DRAIN: Deadlock Removal for Arbitrary Irregular Networks,''
+in \textit{The 26th IEEE International Symposium on High-Performance Computer Architecture (HPCA)},
+San Diego, California, USA,
+\DatestampYM{2020}{02}.}
+
+\NumberedItem{[2]}
+%\href{http://www.example.com/my-paper-doi-3}
+{\underline{M.~Parasar}, N. Enright Jerger, P. Gratz, J. San Miguel, and T. Krishna,
+``SWAP: Synchronized Weaving of Adjacent Packets for Network Deadlock Prevention,''
+in \textit{Proceedings of International Symposium on Microarchitecture (MICRO)},
+Columbus, Ohio, USA,
+\DatestampYM{2019}{10}.}
+
+\Gap
+\NumberedItem{[3]}
+%\href{http://www.example.com/my-paper-doi-2}
+{\underline{M.~Parasar} and T. Krishna,
+``BINDU: Deadlock-freedom with one bubble in the network,''
+in \textit{Proceedings of International Symposium on Networks-on-Chip (NOCS)},
+New York, USA,
+\DatestampYM{2019}{10}.}
+
+\Gap
+\NumberedItem{[4]}
+%\href{http://www.example.com/my-paper-doi-2}
+{\underline{M.~Parasar}, A. Sinha, and T. Krishna,
+``Brownian Bubble Router: Enabling deadlock freedom via guaranteed forward progress,''
+in \textit{Proceedings of International Symposium on Networks-on-Chip (NOCS)},
+Torino, Italy,
+\DatestampYM{2018}{10}.}
+
+\Gap
+\NumberedItem{[5]}
+%\href{http://www.example.com/my-paper-doi-2}
+{\underline{M.~Parasar}, A. Bhattacharjee, and T. Krishna,
+``SEESAW: Using superpages to improve VIPT caches,''
+in \textit{Proceedings of International Symposium on Computer Architecture (ISCA)},
+Los Angeles, California, USA,
+\DatestampYM{2018}{06}.}
+
+\Gap
+\NumberedItem{[6]}
+%\href{http://www.example.com/my-paper-doi-2}
+{\underline{M.~Parasar},  and T. Krishna,
+``Lightweight emulation of virtual channels using swaps,''
+in \textit{Proceedings of the 10th International Workshop on Network on Chip Architectures (NoCArc)},
+Boston, USA,
+\DatestampYM{2017}{10	}.}
+
+\endgroup
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% AWARDS & SCHOLARSHIPS %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Awards \&\newline
+Scholarships}
+{Awards \& Scholarships}
+{PDF:AwardsAndScholarships}
+
+\BulletItem
+AMD Student Ambassador at Georgia Tech
+\hfill
+\DatestampY{2018} --
+\DatestampY{2019}
+
+%\BigGap
+\BulletItem
+Otto \& Jenny Krauss Fellow
+\hfill
+\DatestampY{2015} --
+\DatestampY{2016}
+
+%\Gap
+%\BulletItem
+%Chess Tournament,
+%First Prize,
+%Science College
+%\hfill
+%\DatestampYMD{2003}{03}{10}
+%\begin{Detail}
+%\Item
+%Awarded at the Tenth Annual Chess Tournament held during Open House.
+%\end{Detail}
+%
+%\Gap
+%\BulletItem
+%International Science Scholarship,
+%\hfill
+%\DatestampYMD{2001}{12}{10}
+%\newline
+%Global Science, Technology, Engineering, and Mathematics Foundation
+%\begin{Detail}
+%\Item
+%Full-tuition scholarship with stipend for undergraduate studies.
+%One of 42 awardees in the world.
+%\end{Detail}
+
+%%%%%%%%%%%%%%%
+%% LANGUAGES %%
+%%%%%%%%%%%%%%%
+
+\Section
+{Languages}
+{Languages}
+{PDF:Languages}
+
+\BulletItem
+Hindi: Native language.
+
+\Gap
+\BulletItem
+English: Proficient (speaking, reading, writing).
+\vspace{-6mm}
+\end{Body}
+\end{document}
+%\Gap
+%\BulletItem
+%Latin: Intermediate (reading); basic (speaking, writing).
+
+%%%%%%%%%%%%
+%% SKILLS %%
+%%%%%%%%%%%%
+
+%\Section
+%{Skills}
+%{Skills}
+%{PDF:Skills}
+%
+%\Entry
+%{\TeX}, {\LaTeX}, {\XeLaTeX},
+%MATLAB,
+%Mathematica,
+%Maple,
+%R,
+%Tableau,
+%Adobe Photoshop,
+%Adobe Illustrator,
+%Microsoft Word,
+%Microsoft Excel,
+%Microsoft PowerPoint.
+
+%%%%%%%%%%%%%%%
+%% INTERESTS %%
+%%%%%%%%%%%%%%%
+
+%\Section
+%{Interests}
+%{Interests}
+%{PDF:Interests}
+%
+%\Entry
+%Digital photography,
+%typography,
+%swimming.
+
+%%%%%%%%%%%%%%%%
+%% REFERENCES %%
+%%%%%%%%%%%%%%%%
+
+%\Section
+%{References}
+%{References}
+%{PDF:References}
+%
+%\BulletItem
+%\textbf{Professor Jonathan Public}
+%\newline
+%Professor of Geology and Mechanical Engineering
+%\newline
+%First American University
+%\newline
+%1000 First Avenue, Springfield, Massachusetts 22222, USA
+%\newline
+%\href{mailto:jonathanpublic@example.com}
+%{jonathanpublic@example.com}
+%\,\SubBulletSymbol\,
+%+1\,(555)\,222-2222
+%
+%\BigGap
+%\BulletItem
+%\textbf{Dr Alice Bob Carol}
+%\newline
+%Director, Research \& Development
+%\newline
+%Alpha Engineering Firm
+%\newline
+%20 North Street, Oakland, Ohio 33333, USA
+%\newline
+%\href{mailto:alicebobcarol@example.com}
+%{alicebobcarol@example.com}
+%\,\SubBulletSymbol\,
+%+1\,(555)\,333-3333
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% MULTILINGUAL UNICODE EXAMPLES %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\Section
+%{Multilingual Unicode Examples}
+%{Multilingual Unicode Examples}
+%{PDF:MultilingualUnicodeExamples}
+%
+%\BulletItem
+%Assortment of unicode characters from
+%\href{http://www.ltg.ed.ac.uk/~richard/unicode-sample.html}
+%{\url{http://www.ltg.ed.ac.uk/~richard/unicode-sample.html}}
+%
+%\begin{Detail}
+%\Item
+%\textbf{Latin Extended-A}
+%Ā ā Ă ă Ą ą Ć ć Ĉ ĉ Ċ ċ Č č Ď ď Đ đ Ē ē Ĕ ĕ Ė ė Ę ę Ě ě Ĝ ĝ Ğ ğ Ġ ġ Ģ ģ Ĥ ĥ Ħ ħ Ĩ ĩ Ī ī Ĭ ĭ Į į İ ı Ĳ ĳ Ĵ ĵ
+%\textbf{Latin Extended-B}
+%ƀ Ɓ Ƃ ƃ Ƅ ƅ Ɔ Ƈ ƈ Ɖ Ɗ Ƌ ƌ ƍ Ǝ Ə Ɛ Ƒ ƒ Ɠ Ɣ ƕ Ɩ Ɨ Ƙ ƙ ƚ ƛ Ɯ Ɲ ƞ Ɵ Ơ ơ Ƣ ƣ Ƥ ƥ Ʀ Ƨ ƨ Ʃ ƪ ƫ Ƭ ƭ Ʈ Ư ư Ʊ Ʋ Ƴ ƴ Ƶ
+%\textbf{Latin Extended Additional}
+%Ḁ ḁ Ḃ ḃ Ḅ ḅ Ḇ ḇ Ḉ ḉ Ḋ ḋ Ḍ ḍ Ḏ ḏ Ḑ ḑ Ḓ ḓ Ḕ ḕ Ḗ ḗ Ḙ ḙ Ḛ ḛ Ḝ ḝ Ḟ ḟ Ḡ ḡ Ḣ ḣ Ḥ ḥ Ḧ ḧ Ḩ ḩ Ḫ ḫ Ḭ ḭ Ḯ ḯ Ḱ ḱ Ḳ ḳ Ḵ ḵ
+%\textbf{Greek}
+%ʹ ͵ ͺ ; ΄ ΅ Ά · Έ Ή Ί Ό Ύ Ώ ΐ Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω Ϊ Ϋ ά έ ή ί ΰ α β γ δ ε ζ η θ
+%\textbf{Cyrillic}
+%Ё Ђ Ѓ Є Ѕ І Ї Ј Љ Њ Ћ Ќ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з
+%\textbf{Hebrew}
+%א ב ג ד ה ו ז ח ט י ך כ ל ם מ ן נ ס ע ף פ ץ צ ק ר ש ת װ ױ ײ ֝ ֞ ֟ ֠ ֡ ֣ ֤ ֥ ֦ ֧ ֨ ֩ ֪ ֫ ֬ ֭ ֮ ֯ ְ ֱ ֒ ֓ ֔
+%\textbf{Armenian}
+%{\UseSecondaryFont
+%Ա Բ Գ Դ Ե Զ Է Ը Թ Ժ Ի Լ Խ Ծ Կ Հ Ձ Ղ Ճ Մ Յ Ն Շ Ո Չ Պ Ջ Ռ Ս Վ Տ Ր Ց Ւ Փ Ք Օ Ֆ ՙ ՚ ՛ ՜ ՝ ՞ ՟ ա բ գ դ ե զ}
+%\textbf{Thai}
+%{\UseSecondaryFont
+%ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ฤ ล ฦ ว ศ ษ ส ห ฬ อ ฮ ฯ ะ ั า ำ ิ}
+%\end{Detail}
+%
+% Manual page break.
+%\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% THIS IS A SECTION WITH USAGE NOTES %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Declare a new group to limit the scope of \color to this section.
+%\begingroup
+%\color{blue}
+%
+%\Section
+%{This is a\newline
+%Section\newline
+%With\newline
+%Usage Notes}
+%{This is a Section With Usage Notes (For PDF Bookmark)}
+%{PDF:ThisIsASectionWithUsageNotes:ForPDFLink}
+%
+%\SubSection
+%{This is a SubSection}
+%{This is a SubSection (For PDF Bookmark)}
+%{PDF:ThisIsASubSection:ForPDFLink}
+%
+%\BigGap
+%\BulletItem
+%Use \CodeCommand{Section\{a\}\{b\}\{c\}} and
+%\CodeCommand{SubSection\{a\}\{b\}\{c\}}
+%to create sections and subsections, where
+%\Code{a} is the heading displayed on the page,
+%\Code{b} is the PDF bookmark heading, and
+%\Code{c} is the internal PDF link (must be unique).
+%Sections and subsections will appear in the PDF bookmarks.
+%Note the CamelCase command names.
+%
+%\Gap
+%\BulletItem
+%Use
+%\CodeCommand{Entry},
+%\CodeCommand{BulletItem},
+%\CodeCommand{SubBulletItem},
+%\CodeCommand{SubSubBulletItem},
+%\CodeCommand{Item},
+%\CodeCommand{SubItem},
+%\CodeCommand{SubSubItem},
+%\CodeCommand{NumberedItem},
+%etc.,
+%to create entries in the main body of the CV.
+%
+%\Gap
+%\BulletItem
+%Enclose entry details between
+%\CodeCommand{begin\{Detail\}} and
+%\CodeCommand{end\{Detail\}}
+%so that they are typeset in a smaller font.
+%\begin{Detail}
+%\Item
+%This is an example of entry detail text enclosed in a \Code{Detail} environment.
+%\end{Detail}
+%
+%\Gap
+%\BulletItem
+%Use \CodeCommand{Gap} and \CodeCommand{BigGap} to insert vertical spaces between entries to improve layout.
+%
+%\BigGap
+%\SubSection
+%{This is Another SubSection}
+%{This is Another Subsection (For PDF Bookmark)}
+%{PDF:ThisIsAnotherSubSection:ForPDFLink}
+%
+%\BigGap
+%\Entry
+%This is a plain \CodeCommand{Entry},
+%followed by an \CodeCommand{hfill} and a date range
+%\hfill
+%\DatestampYM{2015}{10} --
+%\DatestampYM{2015}{12}
+%
+%\Gap
+%\BulletItem
+%This is a \CodeCommand{BulletItem}.
+%\Item
+%This is an \CodeCommand{Item}, which has no bullet.
+%Note the alignment with the \CodeCommand{BulletItem} above.
+%
+%\Gap
+%\SubBulletItem
+%This is a \CodeCommand{SubBulletItem}.
+%\SubItem
+%This is a \CodeCommand{SubItem}, which has no bullet.
+%Note the alignment with the \CodeCommand{SubBulletItem} above.
+%
+%\Gap
+%\SubSubBulletItem
+%This is a \CodeCommand{SubSubBulletItem}.
+%\SubSubItem
+%This is a \CodeCommand{SubSubItem}, which has no bullet.
+%Note the alignment with the \CodeCommand{SubSubBulletItem} above.
+%
+%\Gap
+%\NumberedItem{[42]}
+%This is a \CodeCommand{NumberedItem}.
+%Change the value of the macro \CodeCommand{MaxNumberedItem} to adjust the indentation width.
+%
+%\BigGap
+%\SubSection
+%{Line, Paragraph, and Page Breaks}
+%{Line, Paragraph, and Page Breaks (For PDF Bookmark)}
+%{PDF:LineParagraphAndPageBreaks:ForPDFLink}
+%
+%\BigGap
+%\BulletItem
+%To create a new line within the same paragraph (i.e., preserving the same paragraph indentation), use \CodeCommand{newline} instead of \CodeCommand{\textbackslash};
+%the latter will reset the paragraph indentation.
+%
+%\Gap
+%\BulletItem
+%To create a new paragraph, use \CodeCommand{par} or simply leave an empty line.
+%Paragraph indentations (from
+%\CodeCommand{Entry},
+%\CodeCommand{BulletItem},
+%\CodeCommand{SubBulletItem},
+%\CodeCommand{SubSubBulletItem},
+%\CodeCommand{Item},
+%\CodeCommand{SubItem},
+%\CodeCommand{SubSubItem},
+%\CodeCommand{NumberedItem},
+%etc.) do not carry across different paragraphs.
+%
+%\Gap
+%\BulletItem
+%To create a new page, use \CodeCommand{newpage}.
+%
+%\BigGap
+%\SubSection
+%{Dates}
+%{Dates (For PDF Bookmark)}
+%{PDF:Dates:ForPDFLink}
+%
+%\BigGap
+%\BulletItem
+%Use the following macros to specify and display dates consistently:
+%\SubBulletItem
+%\CodeCommand{DatestampYMD\{yyyy\}\{MM\}\{dd\}}
+%(e.g., \CodeCommand{DatestampYMD\{2008\}\{01\}\{15\}})
+%\SubBulletItem
+%\CodeCommand{DatestampYM\{yyyy\}\{MM\}}
+%(e.g., \CodeCommand{DatestampYM\{2008\}\{01\}})
+%\SubBulletItem
+%\CodeCommand{DatestampY\{yyyy\}}
+%(e.g., \CodeCommand{DatestampY\{2008\}})
+%
+%\Gap
+%\BulletItem
+%Change the date format option passed to the document class to adjust how dates are displayed throughout the document:
+%\SubBulletItem
+%\Code{MMMyyyy} (``Jan~2008'')
+%\SubBulletItem
+%\Code{ddMMMyyyy} (``15~Jan~2008'')
+%\SubBulletItem
+%\Code{MMMMyyyy} (``January~2008'')
+%\SubBulletItem
+%\Code{ddMMMMyyyy} (``15~January~2008'')
+%\SubBulletItem
+%\Code{yyyyMMdd} (``2008-01-15'')
+%\SubBulletItem
+%\Code{yyyyMM} (``2008-01'')
+%\SubBulletItem
+%\Code{yyyy} (``2008'')
+%
+%\endgroup
+
+%\end{Body}
+
+%%%%%%%%%%%
+% CV NOTE %
+%%%%%%%%%%%
+
+%\BigGap
+ 
+%\end{document}
