@@ -1,7 +1,7 @@
 ## Deadlock Freedom
 -------
-* “SEEC: Stochastic Escape Express Channel”, <u>*Mayank Parasar*</u>, N. Enright Jerger, P. V. Gratz, J. Miguel, T. Krishna, in The International Conference for High Performance Computing, Networking, Storage and Analysis (SC21), Nov. 2021 
-	* <b>Nominated for Best Paper</b> (to appear)
+* “SEEC: Stochastic Escape Express Channel”, <u>*Mayank Parasar*</u>, N. Enright Jerger, P. V. Gratz, J. Miguel, T. Krishna, in The International Conference for High Performance Computing, Networking, Storage and Analysis (SC21), Nov. 2021 (<b>Best Paper Finalist</b>)
+	* <div>[[paper](papers/seec_sc2021.pdf)] · [[slides](slides/[SC2021]seec_talk.pptx)] · [youtube-link] · [[bibtex](papers/seec.bib)] · [SEEC-code] · [SEEC-docker-image]</div>
 * “DRAIN: Deadlock Removal for Arbitrary Irregular Networks”, <u>*Mayank Parasar*</u>, H. Farrokhbakht, N. Enright Jerger, P. Gratz, T. Krishna, and J. San Miguel, in The 26th IEEE International Symposium on High-Performance Computer Architecture,  <u>*HPCA-26, 2020*</u>
 	* <div>[[paper](papers/drain_hpca2020.pdf)] · [[slides](slides/[HPCA_2020]drain_talk.pptx)] · [youtube-link] · [[bibtex](papers/drain.bib)] · [<a href="https://github.com/georgia-tech-synergy-lab/gem5_drain">DRAIN-code</a>] · [<a href="https://github.com/georgia-tech-synergy-lab/gem5-up-down">UP/DOWN routing-code</a>] · [<a href="https://hub.docker.com/repository/docker/mparasar/gem5_drain">DRAIN-docker-image</a>] · [<a href="https://hub.docker.com/repository/docker/mparasar/gem5_up_down">UP/DOWN routing-docker-image</a>]</div>
 * “SWAP: Synchronized Weaving of Adjacent Packets for Network Deadlock Prevention”, <u>*Mayank Parasar*</u>, N. Enright Jerger, P. Gratz, J. San Miguel, and T. Krishna, In Proc of 52nd Annual IEEE/ACM International Symposium on Microarchitecture, <u>*MICRO-52, 2019*</u>

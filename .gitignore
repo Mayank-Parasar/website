@@ -1,2 +1,5 @@
 site/
 mkdocs-material/
+.DS_Store
+docs/.DS_Store
+simple-resume-cv-master/

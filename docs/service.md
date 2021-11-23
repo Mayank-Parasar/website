@@ -13,3 +13,6 @@
 * <a href="https://coinsconf.com/wp-content/uploads/2021/05/CFP-CAS-2021-May2021.pdf">IEEE COINS 2021</a>
 * <a href="https://ctuning.org/ae/asplos2021.html">Artifact Evaluation for ASPLOS 2021</a>
 * <a href="https://sc21.supercomputing.org/planning-committee/">Artifact Evaluation for The International Conference for High Performance Computing, Networking, Storage and Analysis (SC21)</a>
+
+### Chair
+* Session chair in NOCS 2021 <a href="https://nocs2021.github.io/program.html">Regular session IV: "Secure NoC-based systems"</a>
