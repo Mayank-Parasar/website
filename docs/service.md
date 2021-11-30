@@ -6,6 +6,7 @@
 * <a href="https://www.computer.org/csdl/journal/tc">IEEE Transactions on Computers</a>
 * <a href="https://ieee-ceda.org/publication/ieee-embedded-systems-letters-esl">IEEE Embedded Systems Letters (ESL)</a>
 * <a href="https://dl.acm.org/journal/tocs">ACM Transactions on Computer Systems (TOCS)</a>
+* <a href="https://dl.acm.org/journal/jetc">ACM Journal on Emerging Technologies in Computing Systems (JETC)</a>
 
 
 ### Conference committee member
@@ -16,3 +17,6 @@
 
 ### Chair
 * Session chair in NOCS 2021 <a href="https://nocs2021.github.io/program.html">Regular session IV: "Secure NoC-based systems"</a>
+
+### Invited Talks
+* Invited talk at Indian Institute of Technology (IIT) Delhi on Thursday, 2nd Janunary 2020
