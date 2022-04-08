@@ -1,5 +1,5 @@
 Here is my latest [Curriculum Vitae (CV)](resume/Mayank_Parasar_CV.pdf)<br>
-- Updated February 2020
+- Updated March 2022
 
 Courses taken at Georgia Tech:<br>
 
